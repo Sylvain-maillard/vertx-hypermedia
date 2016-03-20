@@ -7,6 +7,8 @@ import io.vertx.ext.web.Router;
  */
 public abstract class Resource {
 
-    public abstract void setupRoutes(Router router);
+    public void setupRoutes(Router router) {
+        // analyse class and add route dynamically.
+    }
 
 }
